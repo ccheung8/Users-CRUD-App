@@ -1,0 +1,25 @@
+### CREATE USER
+
+POST http://localhost:3000/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "SomeUser2",
+  "age": 9
+}
+
+### GET
+
+GET http://localhost:3000/api/v1/users/2
+
+### PUT
+PUT http://localhost:3000/api/v1/users/10
+Content-Type: application/json
+
+{
+  "name": "HankHill",
+  "age": 10
+}
+
+### DELETE
+DELETE http://localhost:3000/api/v1/users/5

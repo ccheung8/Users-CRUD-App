@@ -1,0 +1,21 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
